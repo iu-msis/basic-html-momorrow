@@ -1,0 +1,97 @@
+body {
+  background-color: lightyellow !important;
+}
+
+p {
+  color: darkblue;
+  font-family: courier;
+  text-align: center;
+}
+
+p1 {
+  color: darkblue;
+  font-family: courier;
+  padding-left: 175px !important;
+}
+
+h1 {
+  font-family: tahoma;
+  color: pink;
+}
+
+#vertical-menu {
+  width: 100px;
+  font-family: courier;
+  font-size:100%;
+  position: fixed;
+}
+
+#vertical-menu a {
+  background-color: gray;
+  color: white;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+#vertical-menu a:hover {
+  background-color: pink;
+  color: darkblue;
+}
+
+#vertical-menu a.active {
+  background-color: white;
+  color: pink;
+}
+
+table {
+  font-family: courier;
+  color: darkblue !important;
+  margin-left: 100px !important;
+  width: 80% !important;
+}
+
+form {
+  margin-left: 175px !important;
+}
+
+.intro {
+  text-align: center;
+}
+
+h2 {
+  font-family: courier;
+  text-align: center;
+  font-size: 50px !important;
+  color: darkblue;
+}
+
+p2 {
+  color: pink;
+  font-weight: 900;
+  font-size: 110%;
+}
+
+img {
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info {
+  text-align: center;
+}
+
+.wanda {
+  font-size: 10px;
+  position:;
+  text-align: center !important;
+}
+
+.container {
+  text-align: center;
+}
