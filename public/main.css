@@ -1,5 +1,6 @@
 body {
   background-color: lightyellow !important;
+  text-align: center;
 }
 
 p {
@@ -8,15 +9,14 @@ p {
   text-align: center;
 }
 
-p1 {
-  color: darkblue;
-  font-family: courier;
-  padding-left: 175px !important;
-}
-
 h1 {
   font-family: tahoma;
   color: pink;
+}
+
+h3{
+  font-family: tahoma;
+  color: darkblue;
 }
 
 #vertical-menu {
@@ -47,12 +47,9 @@ h1 {
 table {
   font-family: courier;
   color: darkblue !important;
-  margin-left: 100px !important;
+  text-align: center;
   width: 80% !important;
-}
-
-form {
-  margin-left: 175px !important;
+  margin: 0 auto;
 }
 
 .intro {
@@ -64,6 +61,19 @@ h2 {
   text-align: center;
   font-size: 50px !important;
   color: darkblue;
+}
+
+h2.post-title {
+  font-size: 20px !important;
+  font-weight: bold;
+}
+
+h3.post-subtitle {
+  font-size: 15px !important;
+}
+
+p.post-meta {
+  font-size: 12px;
 }
 
 p2 {
@@ -94,4 +104,32 @@ img {
 
 .container {
   text-align: center;
+}
+
+form {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+button {
+  background-color: white !important;
+  color: pink !important;
+  border: 3px solid pink !important;
+}
+
+button:hover {
+  background-color: pink !important;
+  color: darkblue !important;
+}
+
+a.btn {
+  background-color: white !important;
+  color: pink !important;
+  border: 3px solid pink !important;
+}
+
+a.btn:hover {
+  background-color: pink !important;
+  color: darkblue !important;
 }
