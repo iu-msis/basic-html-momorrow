@@ -1,6 +1,7 @@
 body {
   background-color: lightyellow !important;
   text-align: center;
+  padding: 0px 10px;
 }
 
 
@@ -22,9 +23,13 @@ h3{
 
 #vertical-menu {
   width: 100px;
+  height: 100% !important;
   font-family: 'Raleway', sans-serif;
   font-size:100%;
   position: fixed;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
 }
 
 #vertical-menu a {
@@ -33,6 +38,7 @@ h3{
   display: block;
   padding: 12px;
   text-decoration: none;
+  overflow: auto;
 }
 
 #vertical-menu a:hover {
@@ -43,6 +49,26 @@ h3{
 #vertical-menu a.active {
   background-color: white;
   color: pink;
+}
+
+div.content {
+  margin-left: 100px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  #vertical-menu {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    margin-right: 20px;
+    z-index: 1;
+  }
+  #vertical-menu a {float: left;}
+  div.container {margin-top: 50px !important;}
 }
 
 table {
@@ -92,6 +118,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 50%;
 }
 
 .info {
@@ -100,7 +127,7 @@ img {
 
 .pic {
   font-size: 10px;
-  position:;
+  position: center;
   text-align: center !important;
 }
 
