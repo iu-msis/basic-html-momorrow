@@ -3,25 +3,26 @@ body {
   text-align: center;
 }
 
+
 p {
   color: darkblue;
-  font-family: courier;
+  font-family: 'Raleway', sans-serif;
   text-align: center;
 }
 
 h1 {
-  font-family: tahoma;
+  font-family: 'Yeseva One', cursive;
   color: pink;
 }
 
 h3{
-  font-family: tahoma;
+  font-family: 'Yeseva One';
   color: darkblue;
 }
 
 #vertical-menu {
   width: 100px;
-  font-family: courier;
+  font-family: 'Raleway', sans-serif;
   font-size:100%;
   position: fixed;
 }
@@ -45,7 +46,7 @@ h3{
 }
 
 table {
-  font-family: courier;
+  font-family: 'Raleway', sans-serif;
   color: darkblue !important;
   text-align: center;
   width: 80% !important;
@@ -57,13 +58,14 @@ table {
 }
 
 h2 {
-  font-family: courier;
+  font-family: 'Rock Salt', cursive;
   text-align: center;
   font-size: 50px !important;
   color: darkblue;
 }
 
 h2.post-title {
+  font-family: 'Raleway';
   font-size: 20px !important;
   font-weight: bold;
 }
